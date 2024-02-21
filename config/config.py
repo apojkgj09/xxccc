@@ -22,7 +22,7 @@ API_ID = int(getenv("API_ID", "21309577"))
 API_HASH = getenv("API_HASH", " df2554b54a9eb9e572979b5db2d0cc79")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5868706821:AAFFP1VwC4jMB7U5SQe-DJJvbHA0bJ_oNJA")
+BOT_TOKEN = getenv("BOT_TOKEN", )
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://zoney:sir@zoney.lwlpxrk.mongodb.net/?retryWrites=true&w=majority") 
@@ -57,7 +57,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/mrHypertrix/YukkiV2",
+    "https://github.com/apojkgj09/xxccc",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -73,11 +73,11 @@ SUPPORT_GROUP = getenv(
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "50000")
+    getenv("ASSISTANT_LEAVE_TIME", "900")
 )  # Remember to give value in Seconds
 
 # Time after which bot will suggest random chats about bot commands.
